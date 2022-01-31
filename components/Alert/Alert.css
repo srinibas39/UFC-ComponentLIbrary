@@ -136,3 +136,49 @@ body{
 .success-text{
     color: #86efac
 }
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    border-radius: 5px;
+    height: 4rem;
+}
+
+.outlined-error{
+    color: red;
+    border: 1px solid red;
+}
+.outlined-warning{
+    color: rgb(255, 167, 38);
+    border: 1px solid rgb(255, 167, 38);
+}
+.outlined-info{
+    color: #66B2FF;
+    border: 1px solid #66B2FF;
+}
+.outlined-success{
+    color: #22c55e;
+    border: 1px solid #22c55e;
+}
+
+/* background */
+
+.filled-error{
+    color: white;
+    background-color: red;
+}
+.filled-warning{
+    color: white;
+    background-color: rgb(255, 167, 38);
+}
+.filled-info{
+    color: white;
+    background-color: #66B2FF;;
+}
+.filled-success{
+    color: white;
+    background-color: #22c55e;
+}
