@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HomePage</title>
+    <link rel="stylesheet" href="./homepage.css" />
+    <link rel="stylesheet" href="./Alert.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit:wght@100&family=Roboto:wght@100&family=Shalimar&family=Yuji+Boku&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <h2>UFCComponentLibrary</h2>
+      <ul class="ul-navbar">
+        <li class="li-ul-navbar">Docs</li>
+        <li class="li-ul-navbar">Examples</li>
+        <li class="li-ul-navbar">Releases</li>
+      </ul>
+    </nav>
+    <main class="homepage">
+      <aside class="sidebar">
+        <div class="list1">
+          <ul class="list1-ul">
+            <li><h2 class="list-header">Get started</h2></li>
+            <li>Introduction</li>
+            <li>Colors</li>
+            <li>Typography</li>
+            <li>Conclusion</li>
+            <li><h2 class="list-header">Components</h2></li>
+            <li class="select">Avatar</li>
+            <li>Alert</li>
+            <li>Badge</li>
+            <l1>Button</l1>
+            <l1>Card</l1>
+            <l1>Image</l1>
+            <l1>Input</l1>
+          </ul>
+        </div>
+      </aside>
+
+      <div class="main-container">
+        <div class="component-header">
+          <h1>Alert</h1>
+          <p>
+            An alert displays a short, important message in a way that attracts
+            the user's attention without interrupting the user's task.
+          </p>
+        </div>
+
+        <!-- Basic Alert -->
+
+        <div class="component">
+          <h2>Basic Alerts</h2>
+          <p>
+            The alert offers four severity levels that set a distinctive icon
+            and color.
+          </p>
+          <div class="component-container">
+            <!-- error -->
+            <div class="alert alert-error">
+              <div class="alert-icon">
+                <span class="material-icons">error_outline</span>
+              </div>
+              <div class="alert-text error-text">
+                This is an error alert — check it out!
+              </div>
+            </div>
+            <!--warning -->
+            <div class="alert alert-warning">
+              <div class="alert-icon">
+                <span class="material-icons">warning_amber</span>
+              </div>
+              <div class="alert-text warning-text">
+                This is a warning alert — check it out!
+              </div>
+            </div>
+            <!-- info alert -->
+            <div class="alert alert-info">
+              <div class="alert-icon">
+                <span class="material-icons">info</span>
+              </div>
+              <div class="alert-text info-text">
+                This is an info alert — check it out!
+              </div>
+            </div>
+            <!-- success alert -->
+            <div class="alert alert-success">
+              <div class="alert-icon">
+                <span class="material-icons">check_circle</span>
+              </div>
+              <div class="alert-text success-text">
+                This is a success alert — check it out!
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <pre class="html">
+<code class="code">
+//Error Alert:
+
+&lt;div class="alert alert-error"&gt;
+&lt;div class="alert-icon "&gt;
+&lt;span class="material-icons">error_outline&lt;/span&gt;
+&lt;/div>
+&lt;div class="alert-text error-text">This is an error alert — check it out!&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
+        <pre class="html">
+    <code class="code">
+//Warning Alert:
+
+&lt;div class="alert alert-warning"&gt;
+&lt;div class="alert-icon "&gt;
+&lt;span class="material-icons">error_outline&lt;/span&gt;
+&lt;/div>
+&lt;div class="alert-text warning-text">This is an error alert — check it out!&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
+        <pre class="html">
+    <code class="code">
+//Info Alert:
+
+&lt;div class="alert alert-info"&gt;
+&lt;div class="alert-icon "&gt;
+&lt;span class="material-icons">error_outline&lt;/span&gt;
+&lt;/div>
+&lt;div class="alert-text info-text">This is an error alert — check it out!&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
+        <pre class="html">
+    <code class="code">
+//success Alert:
+
+&lt;div class="alert alert-success"&gt;
+&lt;div class="alert-icon "&gt;
+&lt;span class="material-icons">error_outline&lt;/span&gt;
+&lt;/div>
+&lt;div class="alert-text success-text">This is an error alert — check it out!&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+      </div>
+    </main>
+  </body>
+</html>
