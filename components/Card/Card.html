@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+    
+    <link rel="stylesheet" href="./Card.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit:wght@100&family=Roboto:wght@100&family=Shalimar&family=Yuji+Boku&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <h2>UFCComponentLibrary</h2>
+      <ul class="ul-navbar">
+        <li class="li-ul-navbar">Docs</li>
+        <li class="li-ul-navbar">Examples</li>
+        <li class="li-ul-navbar">Releases</li>
+      </ul>
+    </nav>
+    <main class="homepage">
+      <aside class="sidebar">
+        <div class="list1">
+          <ul class="list1-ul">
+            <li><h2 class="list-header">Get started</h2></li>
+            <li>Introduction</li>
+            <li>Colors</li>
+            <li>Typography</li>
+            <li>Conclusion</li>
+            <li><h2 class="list-header">Components</h2></li>
+            <li>Avatar</li>
+            <li>Alert</li>
+            <li>Badge</li>
+            <l1>Button</l1>
+            <l1 class="select">Card</l1>
+            <l1>Image</l1>
+            <l1>Input</l1>
+          </ul>
+        </div>
+      </aside>
+
+      <div class="main-container">
+        <div class="component-header">
+          <h1>
+            Card
+            </h1>
+          <p>
+            Cards are surfaces that display content and actions on a single topic.They should be easy to scan for relevant and actionable information. Elements, like text and images, should be placed on them in a way that clearly indicates hierarchy.
+          </p>
+        </div>
+
+        <!-- Basic Card -->
+
+        <div class="component">
+          <h2>Basic Card</h2>
+          <p>
+            Basic Card are entry points to more complex and detailed information and it can support some UI control.
+          </p>
+          <div class="component-container">
+            <div class="card">
+                <div class="uppercard">
+                  <div class="img">
+                    <img src="../../images/UFC.png" alt="loading..." />
+                  </div>
+                  <div class="content">
+                    <h3>Ultimate Fighting Championship</h3>
+                    <p>by Dana White</p>
+                  </div>
+                </div>
+                <div class="lowercard">
+                  <a href="#">READ</a>
+                  <a href="#">BOOKMARK</a>
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-share-nodes"></i></a>
+                  <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+              </div>
+        </div>
+
+        <pre class="html">
+<code class="code">
+//Basic card
+
+&lt;div class="card">
+&lt;div class="uppercard">
+&lt;div class="img">
+&lt;img src="../../images/UFC.png" alt="loading..." />
+&lt;/div>
+&lt;div class="content">
+&lt;h3>Ultimate Fighting Championship</h3>
+&lt;p>by Dana White</p>
+&lt;/div>
+&lt;/div>
+&lt;div class="lowercard">
+&lt;a href="#">READ</a>
+&lt;a href="#">BOOKMARK</a>
+&lt;a href="#">&gt;i class="fa-regular fa-heart">&lt;/i>&lt;/a>
+&lt;a href="#">&gt;i class="fa-solid fa-share-nodes">&lt;/i>&lt;/a>
+&lt;a href="#">&gt;i class="fa-solid fa-ellipsis-vertical">&lt;/i>&lt;/a>
+&lt;/div>
+&lt;/div>
+</code></pre>
+
+
+   <!-- Image Card -->
+
+   <div class="component">
+    <h2>Image Card</h2>
+    <p>
+        Example of a card using an image to reinforce the content.
+    </p>
+    <div class="component-container card2-height">
+        <div class="card2">
+            <div class="img2">
+              <img src="../../images/UFC.png" alt="loading..." />
+            </div>
+            <div class="content2">
+              <h3>Ultimate Fighting Champioship</h3>
+              <p>by Dana White</p>
+              <br />
+              <p>
+                The Ultimate Fighting Championship (UFC) is an American mixed martial
+                arts (MMA) promotion company based in Las Vegas, Nevada.
+              </p>
+            </div>
+          </div>
+  </div>
+
+  <pre class="html">
+<code class="code">
+//Image Card:
+
+
+&lt;div class="card2">
+&lt;div class="img2">
+&lt;img src="../../images/UFC.png" alt="loading..." />
+&lt;/div>
+&lt;div class="content2">
+&lt;h3>Ultimate Fighting Champioship</h3>
+&lt;p>by Dana White</p>
+&lt;br />
+&lt;p>
+The Ultimate Fighting Championship (UFC) is an American mixed martial
+arts (MMA) promotion company based in Las Vegas, Nevada.
+&lt;/p>
+&lt;/div>
+&lt;/div>
+</code></pre>
+<!-- Text Card -->
+<div class="component">
+    <h2>Text Card</h2>
+    <p>
+      Text cards can support multiple actions, UI controls, and an overflow menu, use restraint and remember that cards are entry points to more complex and detailed information.
+    </p>
+    <div class="component-container">
+        <div class="card3">
+            <div class="content3">
+              <h3>Ultimate Fighting Champioship</h3>
+              <p>by Dana White</p>
+              <br />
+              <p>
+                The Ultimate Fighting Championship (UFC) is an American mixed
+                martial arts (MMA) promotion company based in Las Vegas, Nevada.
+              </p>
+            </div>
+            <div class="lowercard3">
+              <a href="#">READ</a>
+              <a href="#">BOOKMARK</a>
+              <a href="#"><i class="fa-regular fa-heart"></i></a>
+              <a href="#"><i class="fa-solid fa-share-nodes"></i></a>
+              <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+            </div>
+          </div>
+  </div>
+
+  <pre class="html">
+<code class="code">
+//Text Card:
+
+&lt;div class="card3">
+&lt;div class="content3">
+&lt;h3>Ultimate Fighting Champioship</h3>
+&lt;p>by Dana White</p>
+&lt;br />
+&lt;p>
+The Ultimate Fighting Championship (UFC) is an American mixed
+martial arts (MMA) promotion company based in Las Vegas, Nevada.
+&lt;/p>
+&lt;/div>
+&lt;div class="lowercard3">
+&lt;a href="#">READ</a>
+&lt;a href="#">BOOKMARK</a>
+&lt;a href="#"><i class="fa-regular fa-heart"></i></a>
+&lt;a href="#"><i class="fa-solid fa-share-nodes"></i></a>
+&lt;a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+&lt;/div>
+&lt;/div>
+</code></pre>
+
+<!--Bottom right curve card  -->
+<div class="component">
+    <h2>Bottom right curve card</h2>
+    <p>
+        Bottom right curve cards can support multiple actions, UI controls, and an overflow menu, use restraint and remember that cards are entry points to more complex and detailed information.
+    </p>
+    <div class="component-container">
+        <div class="card3 curved">
+            <div class="content3">
+              <h3>Ultimate Fighting Champioship</h3>
+              <p>by Dana White</p>
+              <br />
+              <p>
+                The Ultimate Fighting Championship (UFC) is an American mixed
+                martial arts (MMA) promotion company based in Las Vegas, Nevada.
+              </p>
+            </div>
+            <div class="lowercard3 curved">
+              <a href="#">READ</a>
+              <a href="#">BOOKMARK</a>
+              <a href="#"><i class="fa-regular fa-heart"></i></a>
+              <a href="#"><i class="fa-solid fa-share-nodes"></i></a>
+              <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+            </div>
+          </div>
+  </div>
+
+  <pre class="html">
+<code class="code">
+//Bottom right curve card
+
+&lt;div class="card3 curved">
+&lt;div class="content3">
+&lt;h3>Ultimate Fighting Champioship</h3>
+&lt;p>by Dana White</p>
+&lt;br />
+&lt;p>
+The Ultimate Fighting Championship (UFC) is an American mixed
+martial arts (MMA) promotion company based in Las Vegas, Nevada.
+&lt;/p>
+&lt;/div>
+&lt;div class="lowercard3 curved">
+&lt;a href="#">READ</a>
+&lt;a href="#">BOOKMARK</a>
+&lt;a href="#">&lt;i class="fa-regular fa-heart">&lt;/i&lt;/a>
+&lt;a href="#">&lt;i class="fa-solid fa-share-nodes"&lt;/i>&&lt;/a>
+&lt;a href="#">&lt;i class="fa-solid fa-ellipsis-vertical">&lt;/i>&lt;/a>
+&lt;/div>
+&lt;/div>
+</code></pre>
+ 
+ 
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
