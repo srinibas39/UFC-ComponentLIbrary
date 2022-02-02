@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>image</title>
+
+    <link rel="stylesheet" href="./Image.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit:wght@100&family=Roboto:wght@100&family=Shalimar&family=Yuji+Boku&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <h2>UFCComponentLibrary</h2>
+      <ul class="ul-navbar">
+        <li class="li-ul-navbar">Docs</li>
+        <li class="li-ul-navbar">Examples</li>
+        <li class="li-ul-navbar">Releases</li>
+      </ul>
+    </nav>
+    <main class="homepage">
+      <aside class="sidebar">
+        <div class="list1">
+          <ul class="list1-ul">
+            <li><h2 class="list-header">Get started</h2></li>
+            <li>Introduction</li>
+            <li>Colors</li>
+            <li>Typography</li>
+            <li>Conclusion</li>
+            <li><h2 class="list-header">Components</h2></li>
+            <li>Avatar</li>
+            <li>Alert</li>
+            <li>Badge</li>
+            <l1 >Button</l1>
+            <l1>Card</l1>
+            <l1 class="select">Image</l1>
+            <l1>Input</l1>
+          </ul>
+        </div>
+      </aside>
+
+      <div class="main-container">
+        <div class="component-header">
+          <h1>Image</h1>
+          <p>
+              The following are different kinds of responsive Images which you can embed in your webpage by using different classes.
+          </p>
+        </div>
+
+        <!--Square Img-->
+
+        <div class="component">
+          <h2>Square Image</h2>
+          <p>
+              You can embed square images in your websites by using class "sqr-img".
+          </p>
+          <div class="component-container">
+            <div class="sqr-img">
+                <img src="../../images/conor.jpg" alt="loading...">
+                <img src="../../images/Khabib.jpg" alt="loading...">
+                <img src="../../images/Gsp.jpeg" alt="loading...">
+            </div>
+        </div>
+
+        <pre class="html">
+<code class="code">
+//Square Image:
+
+&lt;div class="sqr-img">  
+&lt;img src="../../images/conor.jpg" alt="loading...">  
+&lt;img src="../../images/Khabib.jpg" alt="loading...">
+&lt;img src="../../images/Gsp.jpeg" alt="loading...">  
+&lt;/div>
+</code></pre>
+
+
+<!-- Circular Image -->
+
+  <div class="component">
+    <h2>Circular Image</h2>
+    <p>
+        You can embed circular images in your websites by using class "circular-img".
+    </p>
+    <div class="component-container">
+      <div class="circular-img">
+          <img src="../../images/conor.jpg" alt="loading...">
+          <img src="../../images/Khabib.jpg" alt="loading...">
+          <img src="../../images/Gsp.jpeg" alt="loading...">
+      </div>
+  </div>
+
+  <pre class="html">
+<code class="code">
+//Circular Image:
+
+&lt;div class="circular-img">  
+&lt;img src="../../images/conor.jpg" alt="loading...">  
+&lt;img src="../../images/Khabib.jpg" alt="loading...">
+&lt;img src="../../images/Gsp.jpeg" alt="loading...">  
+&lt;/div>
+</code></pre>
+    
+<!-- Sizes Image -->
+<div class="component">
+    <h2>Sizes Image</h2>
+    <p>
+        You can embed images of different sizes in your websites by using class "sm","md","lg".
+    </p>
+    <div class="component-container">
+      <div class="sizes-img">
+          <img class="sm" src="../../images/conor.jpg" alt="loading...">
+          <img class="md" src="../../images/Khabib.jpg" alt="loading...">
+          <img class="lg" src="../../images/Gsp.jpeg" alt="loading...">
+      </div>
+  </div>
+
+  <pre class="html">
+<code class="code">
+//Sizes Image:
+
+&lt;div class="sizes-img">  
+&lt;img class="sm" src="../../images/conor.jpg" alt="loading...">  
+&lt;img class="md" src="../../images/Khabib.jpg" alt="loading...">
+&lt;img class="lg" src="../../images/Gsp.jpeg" alt="loading...">  
+&lt;/div>
+</code></pre>
+
+<!-- Square Image -->
+<div class="component">
+    <h2>Big Image</h2>
+    <p>
+        You can embed Big image in your websites by using class "big-image".It can be used as banner.
+    </p>
+    <div class="component-container">
+      
+          <img class="big-image" src="../../images/UFC.png" alt="loading...">
+      
+  </div>
+
+  <pre class="html">
+<code class="code">
+//Big Image:
+
+&lt;img class="big-image" src="../../images/UFC.png" alt="loading...">
+</code></pre>
+
+
+
+
+
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
