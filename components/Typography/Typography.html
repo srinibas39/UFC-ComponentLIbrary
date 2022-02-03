@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typography</title>
+
+    <link rel="stylesheet" href="./Typography.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit:wght@100&family=Roboto:wght@100&family=Shalimar&family=Yuji+Boku&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/an-old-hope.min.css" integrity="sha512-t47CjkEB5hx4FojnE73dBLwgrgvLBpgsHvB40ycK3cYPkLwEp7qNHyRpRDA3/zVVAAOUPJwbMVJq3uJrBqpHVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       
+
+</head>
+
+  <body>
+    <nav class="navbar">
+      <h2>UFCComponentLibrary</h2>
+      <ul class="ul-navbar">
+        <li class="li-ul-navbar">Docs</li>
+        <li class="li-ul-navbar">Examples</li>
+        <li class="li-ul-navbar">Releases</li>
+      </ul>
+    </nav>
+    <main class="homepage">
+      <aside class="sidebar">
+        <div class="list1">
+          <ul class="list1-ul">
+            <li><h2 class="list-header">Get started</h2></li>
+            <li>Introduction</li>
+            <li><h2 class="list-header">Components</h2></li>
+            <li>Colors</li>
+            <li class="select">Typography</li>
+            <li>Avatar</li>
+            <li>Alert</li>
+            <li>Badge</li>
+            <l1 >Button</l1>
+            <l1>Card</l1>
+            <l1>Image</l1>
+            <l1 >Input</l1>
+          </ul>
+        </div>
+      </aside>
+
+      <div class="main-container">
+        <div class="component-header">
+          <h1>Typography</h1>
+          <p>
+            Documentation and examples for common text utilities to control alignment, wrapping, weight, and more.
+          </p>
+        </div>
+
+        <!--Heading-->
+
+        <div class="component">
+          <h2>Heading</h2>
+          <p>
+              Different kinds of headings that you can embed in your website.
+          </p>
+          <div class="component-container">
+              <h1>h1.heading 1</h1> 
+              <h2>h2.heading 2</h2>
+              <h3>h3.heading 3</h3> 
+              <h4>h4.heading 4</h4>
+              <h5>h5.heading 5</h5>
+              <h6>h6.heading 6</h6>            
+              
+        </div>
+
+        <pre class="html">
+<code>
+//Headings:
+&lt;h1>h1.heading 1&lt;/h1> 
+&lt;h2>h2.heading 2&lt;/h2>
+&lt;h3>h3.heading 3&lt;/h3> 
+&lt;h4>h4.heading 4&lt;/h4>
+&lt;h5>h5.heading 5&lt;/h5>
+&lt;h6>h6.heading 6&lt;/h6> 
+</code></pre>
+
+<!-- Text Alignment -->
+<div class="component">
+    <h2>Text Alignment</h2>
+    <p>
+        Different kinds of text alignment that you can use in your text.
+    </p>
+    <div class="component-container alignment">
+        <p class="left">Left Aligned Text</p>  
+        <p class="center">Center Aligned Text</p> 
+        <p class="right">Right Aligned Text</p>      
+        
+  </div>
+
+  <pre class="html">
+<code>
+//Text Alignment:
+
+&lt;p class="left">Left Aligned Tex&lt;/p>  
+&lt;p class="center">Center Aligned T&lt;/p> 
+&lt;p class="right">Right Aligned Text&lt;/p> 
+</code></pre>
+
+<!-- Text Transform -->
+<div class="component">
+    <h2>Text Transform</h2>
+    <p>
+        Different kinds of text transforms that you can perform on your text.
+    </p>
+    <div class="component-container">
+        <p class="capitalize">Capitalize Text</p>  
+        <p class="lowercase">Lowercase Text</p> 
+        <p class="uppercase">Uppercase Text</p>      
+        
+  </div>
+
+  <pre class="html">
+<code>
+//Text Alignment:
+&lt;p class="capitalize">Capitalize Text&lt;/p>  
+&lt;p class="lowercase">Lowercase Text&lt;/p> 
+&lt;p class="uppercase">Uppercase Text&lt;/p> 
+
+</code></pre>
+
+
+<!-- Font Weight -->
+<div class="component">
+    <h2>Font Weight</h2>
+    <p>
+        Different kinds of font weights that you can perform on your text.It won't work on all the browsers.
+    </p>
+    <div class="component-container">
+        <p class="light">Light</p>
+        <p class="regular">Regular</p>
+        <p class="medium">Medium</p>
+        <p class="f500">500</p>
+        <p class="bold">Bold</p>    
+        
+  </div>
+
+  <pre class="html">
+<code>
+//Font weight:
+
+&lt;p class="light">Light&lt;/p>
+&lt;p class="regular">Regular&lt;/p>
+&lt;p class="medium">Medium&lt;/p>
+&lt;p class="f500">500&lt;p>
+&lt;p class="bold">Bold&lt;/p>    
+</code></pre>
+
+<!-- Font size -->
+<div class="component">
+    <h2>Font Size</h2>
+    <p>
+        Different sizes of font that you can use on your website ny using classes "small-font","medium-font","large-font".
+    </p>
+    <div class="component-container">
+        <p class="small-font">small</p>
+        <p class="medium-font">medium</p>
+        <p class="large-font">Large</p>  
+  </div>
+
+  <pre class="html">
+<code>
+//Font Size:
+&lt;p class="small-font">small&lt;/p>
+&lt;p class="medium-font">medium&lt;/p>
+&lt;p class="large-font">Large&lt;/p>    
+</code></pre>
+
+<!-- Font style -->
+<div class="component">
+    <h2>Font Style</h2>
+    <p>
+        Different kinds of font styles that you can use on your website ny using classes "normal-style","italic-style","oblique-style".
+    </p>
+    <div class="component-container">
+        <p class="normal-style">Normal style</p>
+        <p class="italic-style">Italic style</p>
+        <p class="oblique-style">Oblique style</p>  
+  </div>
+
+  <pre class="html">
+<code>
+//Font Style:
+
+&lt;p class="normal-style">Normal style&lt;/p>
+&lt;p class="italic-style">Italic style&lt;/p>
+&lt;p class="oblique-style">Oblique style&lt;/p>     
+</code></pre>
+
+<!-- Font Family -->
+<div class="component">
+    <h2>Font Style</h2>
+    <p>
+       Font Family used in the Library is Montserrat,sans-serif.It is a free font available at google fonts.
+    </p>
+
+  <pre class="html">
+<code>
+//Font Style:
+
+&lt;link rel="preconnect" href="https://fonts.googleapis.com">
+&lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+&lt;link href="https://fonts.googleapis.com/css2?family=Montserrat&
+family=Outfit:wght@100&family=Roboto:wght@100&
+family=Shalimar&family=Yuji+Boku&display=swap" rel="stylesheet">
+
+CSS: font-family: 'Montserrat', sans-serif;
+</code></pre>
+
+
+
+      </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js" integrity="sha512-IaaKO80nPNs5j+VLxd42eK/7sYuXQmr+fyywCNA0e+C6gtQnuCXNtORe9xR4LqGPz5U9VpH+ff41wKs/ZmC3iA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>hljs.highlightAll();</script>
+  </body>
+</html>
