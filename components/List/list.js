@@ -40,6 +40,6 @@
 // }
 
 
-window.addEventListener("resize",handleSize);
+// window.addEventListener("resize",handleSize);
 // navIcon.addEventListener("click",handleNavClick);
 
