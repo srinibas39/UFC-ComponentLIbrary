@@ -1,0 +1,200 @@
+   
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toast</title>
+
+    <link rel="stylesheet" href="./Toast.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit:wght@100&family=Roboto:wght@100&family=Shalimar&family=Yuji+Boku&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/an-old-hope.min.css"
+        integrity="sha512-t47CjkEB5hx4FojnE73dBLwgrgvLBpgsHvB40ycK3cYPkLwEp7qNHyRpRDA3/zVVAAOUPJwbMVJq3uJrBqpHVQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <!-- <span class="material-icons nav-icon">
+            reorder
+        </span> -->
+        <h2>UFCComponentLibrary</h2>
+        <ul class="ul-navbar">
+            <li class="li-ul-navbar">Docs</li>
+            <li class="li-ul-navbar">Examples</li>
+            <li class="li-ul-navbar">Releases</li>
+        </ul>
+    </nav>
+    <main class="homepage">
+        <aside class="sidebar">
+            <div class="list1">
+                <ul class="list1-ul">
+                    <li>
+                        <h2 class="list-header">Get started</h2>
+                    </li>
+                    <li>Introduction</li>
+                    <li>
+                        <h2 class="list-header">Components</h2>
+                    </li>
+                    <li>Colors</li>
+                    <li>Typography</li>
+                    <li>Avatar</li>
+                    <li>Alert</li>
+                    <li>Badge</li>
+                    <l1>Button</l1>
+                    <l1>Card</l1>
+                    <l1>Image</l1>
+                    <l1>Input</l1>
+                    <li>List</li>
+                    <li>Navigation</li>
+                    <li>Modal</li>
+                    <li>Rating</li>
+                    <li class="select">Toast</li>
+                </ul>
+            </div>
+        </aside>
+
+        <div class="main-container">
+            <div class="component-header">
+                <h1>Toast</h1>
+                <p>Toast provide brief messages about app processes at the bottom of the screen.</p>
+            </div>
+
+            <!--Baseline Toast-->
+
+            <div class="component">
+                <h2>Baseline Toast</h2>
+                <p>
+                    This is a baseline Toast which you can embed at the bottom of your website.
+                </p>
+                <div class="component-container">
+                    <div class="snackbar-container">
+                        <div class="snackbar">
+                            <p>Can't send photo.Retry in 5 seconds.</p>
+                            <button class="btn-retry">RETRY</button>
+                            <button class="btn-close">X</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <pre class="html">
+    <code >
+//Baseline Toast:
+
+&lt;div class="snackbar-container">
+&lt;div class="snackbar">
+&lt;p>Can't send photo.Retry in 5 seconds.</p>
+&lt;button class="btn-retry">RETRY</button>
+&lt;button class="btn-close">X</button>
+&lt;/div>
+&lt;/div>     
+</code></pre>
+
+
+            <!--Leading Toast-->
+
+            <div class="component">
+                <h2>Leading Toast</h2>
+                <p>
+                    This is a Leading Toast which you can embed at the bottom of your website.By default, snackbars are centered horizontally within the viewport.
+
+                    On larger screens, they can optionally be displayed on the leading edge of the screen
+                </p>
+                <div class="component-container">
+                    <div class="snackbar-container">
+                        <div class="snackbar">
+                            <p>Your photo has been archived.</p>
+                            <button class="btn-retry">UNDO</button>
+                            <button class="btn-close">X</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <pre class="html">
+    <code >
+//Leading Toast:
+
+&lt;div class="snackbar-container">
+&lt;div class="snackbar">
+&lt;p>Your photo has been archived.</p>
+&lt;button class="btn-retry">UNDO</button>
+&lt;button class="btn-close">X</button>
+&lt;/div>
+&lt;/div>     
+</code></pre>
+
+
+
+
+<!--stacking Toast-->
+
+<div class="component">
+    <h2>Stacking Toast</h2>
+    <p>
+        SThis is a stacking Toast which you can embed at the bottom of your website.Action buttons with long text should be positioned below the label instead of alongside it. 
+    </p>
+    <div class="component-container">
+        <div class="snackbar-container">
+            <div class="snackbar2">
+                <p>Your item already has label "travel".You can add a new label</p>
+                <div class="snackbar-btns">
+                    <button class="btn-retry">ADD A NEW LABEL</button>
+                    <button class="btn-close">X</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<pre class="html">
+<code >
+//Stacking Toast:
+
+&lt;div class="snackbar-container">
+&lt;div class="snackbar2">
+&lt;p>Your item already has label "travel".You can add a new label</p>
+&lt;div class="snackbar-btns">
+&lt;button class="btn-retry">ADD A NEW LABEL</button>
+&lt;button class="btn-close">X</button>
+&lt;/div>
+&lt;/div>
+&lt;/div>      
+</code></pre>
+
+
+
+ 
+
+
+           
+
+
+                
+
+                
+
+
+
+                </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"
+        integrity="sha512-IaaKO80nPNs5j+VLxd42eK/7sYuXQmr+fyywCNA0e+C6gtQnuCXNtORe9xR4LqGPz5U9VpH+ff41wKs/ZmC3iA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>hljs.highlightAll();</script>
+    <script src="./list.js"></script>
+</body>
+
+</html>
