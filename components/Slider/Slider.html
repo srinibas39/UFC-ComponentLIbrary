@@ -1,0 +1,161 @@
+   
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slider</title>
+
+    <link rel="stylesheet" href="./Slider.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit:wght@100&family=Roboto:wght@100&family=Shalimar&family=Yuji+Boku&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/an-old-hope.min.css"
+        integrity="sha512-t47CjkEB5hx4FojnE73dBLwgrgvLBpgsHvB40ycK3cYPkLwEp7qNHyRpRDA3/zVVAAOUPJwbMVJq3uJrBqpHVQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <!-- <span class="material-icons nav-icon">
+            reorder
+        </span> -->
+        <h2>UFCComponentLibrary</h2>
+        <ul class="ul-navbar">
+            <li class="li-ul-navbar">Docs</li>
+            <li class="li-ul-navbar">Examples</li>
+            <li class="li-ul-navbar">Releases</li>
+        </ul>
+    </nav>
+    <main class="homepage">
+        <aside class="sidebar">
+            <div class="list1">
+                <ul class="list1-ul">
+                    <li>
+                        <h2 class="list-header">Get started</h2>
+                    </li>
+                    <li>Introduction</li>
+                    <li>
+                        <h2 class="list-header">Components</h2>
+                    </li>
+                    <li>Colors</li>
+                    <li>Typography</li>
+                    <li>Avatar</li>
+                    <li>Alert</li>
+                    <li>Badge</li>
+                    <l1>Button</l1>
+                    <l1>Card</l1>
+                    <l1>Image</l1>
+                    <l1>Input</l1>
+                    <li>List</li>
+                    <li>Navigation</li>
+                    <li>Modal</li>
+                    <li>Rating</li>
+                    <li>Toast</li>
+                    <li >Grid</li>
+                    <li class="select">Slider</li>
+                </ul>
+            </div>
+        </aside>
+
+        <div class="main-container">
+            <div class="component-header">
+                <h1>Slider</h1>
+                <p>Sliders allow users to make selections from a range of values.</p>
+            </div>
+  
+          <!--Basic Slider-->
+
+            <div class="component">
+                <h2>Basic Slider</h2>
+                <p>
+                    This is a basic Slider which you can use in your website.It is responsive by nature.It will allow you make selection from a range of values.
+                </p>
+                <div class="component-container">
+                   <div class="slider-container">
+                       <input type="range" min="1" max="100" value="50" class="slider">
+                   </div>
+                </div>
+
+
+                <pre class="html">
+    <code >
+//Basic Slider:
+
+&lt;div class="slider-container">
+&lt;input type="range" min="1" max="100" value="50" class="slider">
+&lt;/div>
+</div>   
+</code></pre>
+
+
+
+          <!--Sizes Slider-->
+
+          <div class="component">
+            <h2>Sizes Slider</h2>
+            <p>
+               Different sizes of slider using classes like "sm","md","lg" for small ,medium ,large respectively.
+            </p>
+            <div class="component-container">
+               <div class="slider-container">
+                   <input type="range" min="1" max="100" value="50" class="slider sm">
+                   <input type="range" min="1" max="100" value="50" class="slider md">
+                   <input type="range" min="1" max="100" value="50" class="slider lg">
+               </div>
+            </div>
+            <pre class="html">
+<code >
+//Sizes Slider:
+
+&lt;div class="slider-container">
+&lt;input type="range" min="1" max="100" value="50" class="slider sm">
+&lt;input type="range" min="1" max="100" value="50" class="slider md">
+&lt;input type="range" min="1" max="100" value="50" class="slider lg">
+&lt;/div>
+</div>   
+</code></pre>
+
+
+       
+
+        
+
+        
+
+
+
+
+
+
+ 
+
+
+           
+
+
+                
+
+                
+
+
+
+                </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"
+        integrity="sha512-IaaKO80nPNs5j+VLxd42eK/7sYuXQmr+fyywCNA0e+C6gtQnuCXNtORe9xR4LqGPz5U9VpH+ff41wKs/ZmC3iA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>hljs.highlightAll();</script>
+    <script src="./list.js"></script>
+</body>
+
+</html>
