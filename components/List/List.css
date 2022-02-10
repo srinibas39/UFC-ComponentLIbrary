@@ -88,9 +88,9 @@ body {
 /* .navbar span{
      display: none;
  } */
-.homepage{
+/* .homepage{
     font-size: 85%;
-} 
+}  */
 
 .select {
   color: var(--primary-color);
@@ -119,13 +119,13 @@ body {
 
 /* Responsiveness */
 
-@media screen and (max-width:894px){
+/* @media screen and (max-width:894px){
     .sidebar{
         display: none;
     }
-}
+} */
 
-@media screen and  (max-width:700px){
+/* @media screen and  (max-width:700px){
     .homepage{
         font-size: 128%;
     }
@@ -141,7 +141,7 @@ body {
     .sidebar{
         display: none;
     }
-}
+} */
 /* @media screen and (min-width:300px) and (max-width:521px){
     .homepage{
         font-size: 128%;
