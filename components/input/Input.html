@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>image</title>
+
+    <link rel="stylesheet" href="./Input.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit:wght@100&family=Roboto:wght@100&family=Shalimar&family=Yuji+Boku&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/an-old-hope.min.css" integrity="sha512-t47CjkEB5hx4FojnE73dBLwgrgvLBpgsHvB40ycK3cYPkLwEp7qNHyRpRDA3/zVVAAOUPJwbMVJq3uJrBqpHVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       
+
+</head>
+
+  <body>
+    <nav class="navbar">
+      <h2>UFCComponentLibrary</h2>
+      <ul class="ul-navbar">
+        <li class="li-ul-navbar">Docs</li>
+        <li class="li-ul-navbar">Examples</li>
+        <li class="li-ul-navbar">Releases</li>
+      </ul>
+    </nav>
+    <main class="homepage">
+      <aside class="sidebar">
+        <div class="list1">
+          <ul class="list1-ul">
+            <li><h2 class="list-header">Get started</h2></li>
+            <li>Introduction</li>
+            <li>Colors</li>
+            <li>Typography</li>
+            <li>Conclusion</li>
+            <li><h2 class="list-header">Components</h2></li>
+            <li>Avatar</li>
+            <li>Alert</li>
+            <li>Badge</li>
+            <l1 >Button</l1>
+            <l1>Card</l1>
+            <l1>Image</l1>
+            <l1 class="select">Input</l1>
+          </ul>
+        </div>
+      </aside>
+
+      <div class="main-container">
+        <div class="component-header">
+          <h1>Input</h1>
+          <p>
+              The following are different kinds of responsive Input components which you can embed in your webpage by using different classes.
+              You can use input component in searchbar,authentication,forms etc.
+          </p>
+        </div>
+
+        <!--Search-->
+
+        <div class="component">
+          <h2>Search Input</h2>
+          <p>
+              You can embed search input in your websites by using class "search".
+          </p>
+          <div class="component-container center">
+              <input type="search" class="search" placeholder="&#xf689; Search" style="padding: 1rem; font-family:Montserrat ,sans-serif, 'Font Awesome 5 Free';"> 
+              
+              
+        </div>
+
+        <pre class="html">
+<code>
+//Search:
+
+&lt;input type="search" class="search" placeholder="Search">
+</code></pre>
+
+
+<!-- Auth Form  -->
+<div class="component">
+    <h2>Authentication Form</h2>
+    <p>
+        You can embed Authentication Form in your websites by using class "username" ,"password"
+    </p>
+    <div class="component-container">
+            <label class="label" for=".username">username *</label>
+            <input type="search" class="username" placeholder="Username">
+            <label class="label red" for=".username">password *</label>
+            <input type="search" class="password red red-border" placeholder="Password">
+            <small class="red">Wrong password.Try again.</small>
+    </div>
+
+  <pre class="html">
+<code >
+//Authentication Form:
+
+&lt;label class="label" for=".username">username *&lt;/label>
+&lt;input type="search" class="username" placeholder="Username">
+&lt;label class="label red" for=".username">password *&lt;/label>
+&lt;input type="search" class="password red red-border" placeholder="Password">
+&lt;small class="red">Wrong password.Try again.&lt;/small>
+</code></pre>
+
+
+<!-- Radio  -->
+<div class="component">
+    <h2>Radio Input</h2>
+    <p>
+        You can embed radio boxes in your website.It helps to select one item out of a group of items"
+    </p>
+    <div class="component-container">
+             <div class="checked">
+
+                 <label class="label" for="checked">checked</label>
+                 <input type="radio" name="checked" checked>
+             </div>
+             <div class="unchecked">
+                 <label class="label" for="unchecked">unchecked</label>
+                 <input type="radio" name="checked">
+             </div>
+             <div class="disabled">
+                 <label class="label" for="disabled">disabled</label>
+                 <input type="checkbox" name="disabled" disabled>
+             </div>
+            
+            
+    </div>
+
+  <pre class="html" >
+<code >
+//Radio:
+
+&lt;div class="checked">
+
+&lt;label class="label" for="checked">checked&lt;/label>
+&lt;input type="radio" name="checked">
+&lt;/div>
+&lt;div class="unchecked">
+&lt;label class="label" for="unchecked">unchecked&lt;/label>
+&lt;input type="radio" name="checked">
+&lt;/div>
+&lt;div class="disabled">
+&lt;label class="label" for="disabled">disabled&lt;/label>
+&lt;input type="checkbox" name="disabled" disabled>
+&lt;/div>
+</code></pre>
+
+<!-- TextBox Input  -->
+<div class="component">
+    <h2>Checkbox Input</h2>
+    <p>
+        You can embed Checkbox in your website.It helps to select multiple item out of a group of items and you can also select and deselect same item mulitple times"
+    </p>
+    <div class="component-container">
+             <div class="checked">
+
+                 <label class="label" for="checked">checked</label>
+                 <input type="checkbox" name="checked" checked>
+                
+             </div>
+             <div class="unchecked">
+                 <label class="label" for="unchecked">unchecked</label>
+                 <input type="checkbox" name="checked">
+             </div>
+             <div class="disabled">
+                 <label class="label" for="disabled">disabled</label>
+                 <input type="checkbox" name="disabled" disabled>
+             </div>
+            
+            
+    </div>
+
+<pre class="html">
+<code>
+//Radio:
+
+&lt;div class="checked">
+
+&lt;label class="label" for="checked">checked&lt;/label>
+&lt;input type="checkbox" name="checked">
+&lt;/div>
+&lt;div class="unchecked">
+&lt;label class="label" for="unchecked">unchecked&lt;/label>
+&lt;input type="checkbox" name="checked">
+&lt;/div>
+&lt;div class="disabled">
+&lt;label class="label" for="disabled">disabled&lt;/label>
+&lt;input type="checkbox" name="disabled" disabled>
+&lt;/div>
+</code></pre>
+
+
+
+
+
+
+
+      </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js" integrity="sha512-IaaKO80nPNs5j+VLxd42eK/7sYuXQmr+fyywCNA0e+C6gtQnuCXNtORe9xR4LqGPz5U9VpH+ff41wKs/ZmC3iA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>hljs.highlightAll();</script>
+  </body>
+</html>
