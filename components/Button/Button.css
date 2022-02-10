@@ -87,85 +87,75 @@ body {
 .select {
   color: var(--primary-color);
 }
-
-.badge-icon {
-  height: 2rem;
-  width: 2rem;
-  background-color: var(--primary-color);
-  position: absolute;
-  top: 0.5rem;
-  left: 17rem;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--secondary-color);
-  font-weight: bold;
-}
-.h1 {
-  margin: 2rem;
-}
-.badge {
-  position: relative;
-  font-family: "Montserrat", sans-serif;
-}
-.large-badge {
-  height: 4rem;
-  width: 4rem;
-  background-color: var(--primary-color);
-  position: absolute;
-  top: -1.2rem;
-  left: 17rem;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--secondary-color);
-  font-weight: bold;
-}
-.button {
-  padding: 0.5rem 2rem;
-  font-size: 1rem;
-  font-weight: bold;
-  border-radius: 0.5rem;
-  border: none;
+.btn {
+  padding: 0.5rem 1rem;
+  margin:0 1rem;
   cursor: pointer;
-  background-color: black;
-  color: white;
 }
-.button-badge {
-  height: 2rem;
-  width: 2rem;
-  background-color: var(--primary-color);
-  position: absolute;
-  top: -1.5rem;
-  left: 5rem;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--secondary-color);
-  font-weight: bold;
+.btn-primary {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+.btn-secondary {
+  color: #fff;
+  background-color: #212529;
+  border-color: #212529;
+}
+.btn-success {
+  color: #fff;
+  background-color: #198754;
+  border-color: #198754;
+}
+.btn-danger {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+.btn-warning {
+  color: #fff;
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+.btn-info {
+  color: #fff;
+  background-color: #0dcaf0;
+  border-color: #0dcaf0;
 }
 
-.height {
-  height: 23rem;
+.outlined-primary {
+  color: #0d6efd;
+  border: 1px solid #0d6efd;
 }
-i {
-  font-size: 2rem;
+.outlined-secondary {
+  color: #212529;
+  border: 1px solid #212529;
 }
-
-.icon-badge{
-    height: 2rem;
-    width: 2rem;
-    background-color: var(--primary-color);
-    position: absolute;
-    top: -1rem;
-    left: 1.5rem;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--secondary-color);
-    font-weight: bold;
+.outlined-success {
+  color: #198754;
+  border: 1px solid #198754;
+}
+.outlined-danger {
+  color: #dc3545;
+  border: 1px solid #dc3545;
+}
+.outlined-warning {
+  color: #ffc107;
+  border: 1px solid #ffc107;
+}
+.outlined-info {
+  color: #0dcaf0;
+  border: 1px solid #0dcaf0;
+}
+a{
+    text-decoration: none;
+}
+.sm{
+    padding: 0.5rem;
+}
+.md{
+    padding: 1rem;
+}
+.lg{
+    padding: 2rem;
 }
