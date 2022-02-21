@@ -15,6 +15,8 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit:wght@100&family=Roboto:wght@100&family=Shalimar&family=Yuji+Boku&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/an-old-hope.min.css"
         integrity="sha512-t47CjkEB5hx4FojnE73dBLwgrgvLBpgsHvB40ycK3cYPkLwEp7qNHyRpRDA3/zVVAAOUPJwbMVJq3uJrBqpHVQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -24,48 +26,104 @@
 </head>
 
 <body>
-    <nav class="navbar">
-        <!-- <span class="material-icons nav-icon">
-            reorder
-        </span> -->
-        <h2>UFCComponentLibrary</h2>
-        <ul class="ul-navbar">
-            <li class="li-ul-navbar">Docs</li>
-            <li class="li-ul-navbar">Examples</li>
-            <li class="li-ul-navbar">Releases</li>
-        </ul>
-    </nav>
+  <div class="navBar">
+    <div class="navBar-img">
+      <a class="link3" href="../../landingPage/landingPage.html"></a>
+      <svg
+        class="site-logo"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 122 26"
+      >
+        <path
+          d="M39.78 4.19H25.655L26.83 0h14.12l-1.17 4.19zm-9.57 7.078h7.588l1.172-4.19H24.849L21.5 19.043h6.534l2.175-7.776.001.001zm16.017 3.445a.62.62 0 01-.322-.386.568.568 0 01.008-.286l2.559-9.145a.836.836 0 01.39-.55c.304-.126.634-.18.963-.158h7.053L58.052 0H48.16c-1.8 0-3.056.21-3.789.615-.733.405-1.239 1.115-1.531 2.163l-3.656 13.04a2.637 2.637 0 00-.093.569c-.01.195.008.39.055.581a2.436 2.436 0 001.26 1.52 5.12 5.12 0 002.491.556h10.35l1.187-4.188h-7.576a1.28 1.28 0 01-.636-.143h.005zM7.202 0L2.775 15.818a2.635 2.635 0 00-.095.57c-.01.195.01.39.055.58a2.435 2.435 0 001.271 1.518 5.084 5.084 0 002.489.558h7.364c1.8 0 3.059-.21 3.79-.613.73-.403 1.238-1.117 1.53-2.166L23.724 0H17.19l-3.96 14.148a.836.836 0 01-.39.55c-.305.126-.634.18-.963.156h-1.125c-.22.007-.44-.041-.635-.14a.635.635 0 01-.32-.387.575.575 0 01.008-.286L13.732 0h-6.53zM.81 23.055L0 25.942h51.371l.807-2.887H.81z"
+          fill="#CD1421"
+        ></path>
+      </svg>
+    </div>
+    <div class="navBar-content">
+      <div class="link-icon">
+        <a class="link2" href="#"></a>
+        <span class="material-icons-outlined"> assignment </span>
+      </div>
+      <div id="light">
+        <span class="material-icons-outlined"> light_mode </span>
+      </div>
+      <div id="dark">
+        <span class="material-icons-outlined"> dark_mode </span>
+      </div>
+      <div id="comp-list">
+        <span class="material-icons-outlined"> reorder </span>
+      </div>
+    </div>
+  </div>
+
     <main class="homepage">
-        <aside class="sidebar">
-            <div class="list1">
-                <ul class="list1-ul">
-                    <li>
-                        <h2 class="list-header">Get started</h2>
-                    </li>
-                    <li>Introduction</li>
-                    <li>
-                        <h2 class="list-header">Components</h2>
-                    </li>
-                    <li>Colors</li>
-                    <li>Typography</li>
-                    <li>Avatar</li>
-                    <li>Alert</li>
-                    <li>Badge</li>
-                    <l1>Button</l1>
-                    <l1>Card</l1>
-                    <l1>Image</l1>
-                    <l1>Input</l1>
-                    <li>List</li>
-                    <li>Navigation</li>
-                    <li>Modal</li>
-                    <li>Rating</li>
-                    <li>Toast</li>
-                    <li >Grid</li>
-                    <li>Slider</li>
-                    <li class="select">Drawer</li>
-                </ul>
-            </div>
-        </aside>
+      <aside class="sidebar">
+        <div class="list1">
+          <ul class="list1-ul">
+            <li>
+              <h2 class="list-header">Components</h2>
+            </li>
+            <li>
+              <a class="link" id="li" href="../colors/colors.html">Colors</a>
+            </li>
+            <li>
+              <a class="link" id="li" href="../Typography/Typography.html"
+                >Typography</a
+              >
+            </li>
+            <li>
+              <a class="link" id="li" href="../Avatar/Avatar.html">Avatar</a>
+            </li>
+            <li>
+              <a class="link" id="li" href="../Alert/Alert.html"
+                >Alert</a
+              >
+            </li>
+            <li>
+              <a class="link" id="li" href="../Badge/Badge.html">Badge</a>
+            </li>
+            <l1
+              ><a class="link" id="li" href="../Button/Button.html"
+                >Button</a
+              ></l1
+            >
+            <l1><a class="link" id="li" href="../Card/Card.html">Card</a></l1>
+            <l1
+              ><a class="link" id="li" href="../Image/image.html">Image</a></l1
+            >
+            <l1
+              ><a class="link" id="li" href="../input/Input.html">Input</a></l1
+            >
+            <li><a class="link" id="li" href="../List/List.html">List</a></li>
+            <li>
+              <a class="link" id="li" href="../Navigation/Navigation.html"
+                >Navigation</a
+              >
+            </li>
+            <li>
+              <a class="link" id="li" href="../Modal/Modal.html">Modal</a>
+            </li>
+            <li>
+              <a class="link" id="li" href="../Rating/Rating.html">Rating</a>
+            </li>
+            <li>
+              <a class="link" id="li" href="../Toast/Toast.html">Toast</a>
+            </li>
+            <li><a class="link" id="li" href="../Grid/Grid.html">Grid</a></li>
+            <li>
+              <a class="link" id="li" href="../Slider/Slider.html">Slider</a>
+            </li>
+            <li>
+              <a class="link select" id="li" href="../Drawer/Drawer.html">Drawer</a>
+            </li>
+            <li>
+              <a class="link" id="li" href="../Chips/Chips.html">Chips</a>
+            </li>
+          </ul>
+        </div>
+      </aside>
 
         <div class="main-container">
             <div class="component-header">
@@ -90,19 +148,19 @@
                         <p>UFC@gmail.com</p>
                       </div>
                       <nav class="nav-drawer">
-                        <a class="sel" href="#"><i class="fas fa-inbox"></i>Inbox</a>
-                        <a href="#"><i class="fas fa-inbox"></i>Star</a>
-                        <a href="#"><i class="fas fa-paper-plane"></i>Sent</a>
-                        <a href="#"><i class="fas fa-envelope-open"></i>Drafts</a>
+                        <a class="sel" href="#"><i class="i fas fa-inbox"></i>Inbox</a>
+                        <a href="#"><i class="i fas fa-inbox"></i>Star</a>
+                        <a href="#"><i class="i fas fa-paper-plane"></i>Sent</a>
+                        <a href="#"><i class="i fas fa-envelope-open"></i>Drafts</a>
                         <br />
                         <p>Labels</p>
-                        <a href="#"><i class="fas fa-users"></i>Family</a>
-                        <a href="#"><i class="fas fa-users"></i>Friends</a>
+                        <a href="#"><i class="i fas fa-users"></i>Family</a>
+                        <a href="#"><i class="i fas fa-users"></i>Friends</a>
                       </nav>
                     </aside>
                     <main class="main-drawer">
                       <header class="header-drawer">
-                        <h1><i class="fas fa-bars navopen"></i>UFC MAIL</h1>
+                        <h1><i class="i fas fa-bars navopen"></i>UFC MAIL</h1>
                       </header>
                       <section>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quo
@@ -150,30 +208,30 @@
 
             <pre class="html">
 <code >
-//Basic Drawer:
+//Action Drawer:
 
-&lt;div class="drawer">
-&lt;aside class="aside-drawer">
-&lt;div class="mail-heading">
-&lt;h2>UFC Mail&lt;/h2>
-&lt;p>UFC@gmail.com&lt;/p>
-&lt;/div>
-&lt;nav class="nav-drawer">
-&lt;a class="sel" href="#">&lt;i class="fas fa-inbox">&lt;/i>Inbox&lt;/a>
-&lt;a href="#">&lt;i class="fas fa-inbox">&lt;/i>Star&lt;/a>
-&lt;a href="#">&lt;i class="fas fa-paper-plane">&lt;/i>Sent&lt;/a>
-&lt;a href="#">&lt;i class="fas fa-envelope-open">&lt;/i>Drafts&lt;/a>
-&lt;br />
-&lt;p>Labels&lt;/p>
-&lt;a href="#">&lt;i class="fas fa-users">&lt;/i>Family&lt;/a>
-&lt;a href="#">&lt;i class="fas fa-users">&lt;/i>Friends&lt;/a>
-&lt;/nav>
-&lt;/aside>
-&lt;main class="main-drawer">
-&lt;header class="header-drawer">
-&lt;h1>&lt;i class="fas fa-bars navopen">&lt;/i>UFC MAIL&lt;/h1>
-&lt;/header>
-&lt;section>
+&lt;div class=&quot;drawer&quot;&gt;
+&lt;aside class=&quot;aside-drawer&quot;&gt;
+  &lt;div class=&quot;mail-heading&quot;&gt;
+    &lt;h2&gt;UFC Mail&lt;/h2&gt;
+    &lt;p&gt;UFC@gmail.com&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;nav class=&quot;nav-drawer&quot;&gt;
+    &lt;a class=&quot;sel&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;i fas fa-inbox&quot;&gt;&lt;/i&gt;Inbox&lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;i fas fa-inbox&quot;&gt;&lt;/i&gt;Star&lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;i fas fa-paper-plane&quot;&gt;&lt;/i&gt;Sent&lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;i fas fa-envelope-open&quot;&gt;&lt;/i&gt;Drafts&lt;/a&gt;
+    &lt;br /&gt;
+    &lt;p&gt;Labels&lt;/p&gt;
+    &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;i fas fa-users&quot;&gt;&lt;/i&gt;Family&lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;i fas fa-users&quot;&gt;&lt;/i&gt;Friends&lt;/a&gt;
+  &lt;/nav&gt;
+&lt;/aside&gt;
+&lt;main class=&quot;main-drawer&quot;&gt;
+  &lt;header class=&quot;header-drawer&quot;&gt;
+    &lt;h1&gt;&lt;i class=&quot;i fas fa-bars navopen&quot;&gt;&lt;/i&gt;UFC MAIL&lt;/h1&gt;
+  &lt;/header&gt;
+  &lt;section&gt;
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quo
     provident, ad esse recusandae, minus repellendus quia iste suscipit
     cumque est. Nobis ullam deserunt deleniti facilis obcaecati? Ducimus,
@@ -186,10 +244,54 @@
     error optio soluta eum est impedit rem nulla eaque. Ab ullam repellat
     distinctio voluptate reprehenderit, sint, aliquam neque assumenda ipsa
     dolorum tempora, odio voluptatem consequatur quae iure! Saepe cumque
-&lt;/section>
-&lt;/main>
-&lt;/div>    
-</div>   
+    est eaque assumenda veniam deserunt iusto incidunt impedit! Quidem,
+    omnis? Illo, consectetur harum impedit, libero dolorum facere ipsa
+    quia neque possimus commodi necessitatibus, reiciendis tempora.
+    Impedit consectetur tempora voluptas est maiores temporibus totam
+    adipisci modi, debitis ea tempore velit! Doloribus. Aut ea harum atque
+    et maiores optio expedita quam consectetur dicta doloribus! Laborum
+    enim omnis dicta accusamus, iste inventore odit tempora, nostrum
+    maiores consequuntur alias, consequatur praesentium odio facilis quia?
+    Doloremque quam corporis natus fugit error at deleniti architecto rem,
+    itaque voluptates numquam alias velit quo a cumque! Totam laborum,
+    tenetur necessitatibus error amet repellendus quam sunt id debitis
+    vel. Nemo sequi earum qui hic at culpa necessitatibus quisquam,
+    aliquam tempore porro! Saepe, quo odit harum numquam eveniet fugit
+    possimus quisquam laborum, labore esse, culpa error. Iusto dolore
+    natus vitae? Aperiam corrupti cum corporis facere voluptatibus,
+    dolore, beatae atque qui placeat unde ullam exercitationem quia
+    impedit, voluptas dolorum blanditiis quae! Quod dolor maiores minima
+    illum error consequatur vel fugiat hic! Aut ducimus quaerat similique
+    maiores pariatur omnis expedita doloremque possimus explicabo fuga
+    officiis culpa, quae optio veritatis iusto consequatur! Adipisci
+    similique hic porro, deleniti inventore totam facilis cupiditate
+    numquam natus. Lorem ipsum dolor sit amet consectetur adipisicing
+    elit. Ea, commodi voluptatem. Porro possimus facilis, adipisci esse
+    dolor maxime, amet eius perferendis debitis doloribus molestiae
+    incidunt! Deleniti, ad odit? Nulla, placeat!
+  &lt;/section&gt;
+&lt;/main&gt;
+&lt;/div&gt;  
+
+//Javascript code
+
+let sidebar2=document.querySelector(".aside-drawer");
+let navopen=document.querySelector(".navopen");
+
+
+navopen.addEventListener("click",()=>{
+    if(sidebar2.style.display!=="none"){
+        
+        sidebar2.style.display="none";
+        
+    }
+    else{
+       sidebar2.style.display="flex";
+       
+    }
+})
+
+
 </code></pre>
 
      <!--Basic Drawer-->
@@ -207,14 +309,14 @@
                     <p>UFC@gmail.com</p>
                   </div>
                   <nav class="nav-drawer">
-                    <a class="sel" href="#"><i class="fas fa-inbox"></i>Inbox</a>
-                    <a href="#"><i class="fas fa-inbox"></i>Star</a>
-                    <a href="#"><i class="fas fa-paper-plane"></i>Sent</a>
-                    <a href="#"><i class="fas fa-envelope-open"></i>Drafts</a>
+                    <a class="sel" href="#"><i  class="i fas fa-inbox"></i>Inbox</a>
+                    <a href="#"><i class="i fas fa-inbox"></i>Star</a>
+                    <a href="#"><i class="i fas fa-paper-plane"></i>Sent</a>
+                    <a href="#"><i class="i fas fa-envelope-open"></i>Drafts</a>
                     <br />
                     <p>Labels</p>
-                    <a href="#"><i class="fas fa-users"></i>Family</a>
-                    <a href="#"><i class="fas fa-users"></i>Friends</a>
+                    <a href="#"><i class="i fas fa-users"></i>Family</a>
+                    <a href="#"><i class="i fas fa-users"></i>Friends</a>
                   </nav>
                 </aside>
                 <main class="main-drawer">
@@ -269,44 +371,68 @@
 <code >
 //Basic Drawer:
 
-&lt;div class="drawer">
-&lt;aside class="aside-drawer">
-&lt;div class="mail-heading">
-&lt;h2>UFC Mail&lt;/h2>
-&lt;p>UFC@gmail.com&lt;/p>
-&lt;/div>
-&lt;nav class="nav-drawer">
-&lt;a class="sel" href="#">&lt;i class="fas fa-inbox">&lt;/i>Inbox&lt;/a>
-&lt;a href="#">&lt;i class="fas fa-inbox">&lt;/i>Star&lt;/a>
-&lt;a href="#">&lt;i class="fas fa-paper-plane">&lt;/i>Sent&lt;/a>
-&lt;a href="#">&lt;i class="fas fa-envelope-open">&lt;/i>Drafts&lt;/a>
-&lt;br />
-&lt;p>Labels&lt;/p>
-&lt;a href="#">&lt;i class="fas fa-users">&lt;/i>Family&lt;/a>
-&lt;a href="#">&lt;i class="fas fa-users">&lt;/i>Friends&lt;/a>
-&lt;/nav>
-&lt;/aside>
-&lt;main class="main-drawer">
-&lt;header class="header-drawer">
-&lt;h1>UFC MAIL&lt;/h1>
-&lt;/header>
-&lt;section>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quo
-provident, ad esse recusandae, minus repellendus quia iste suscipit
-cumque est. Nobis ullam deserunt deleniti facilis obcaecati? Ducimus,
-nobis pariatur! Culpa iusto, recusandae enim repudiandae eum aliquid?
-Ut, voluptatibus eveniet eos neque aliquam, nulla molestiae velit
-numquam repellendus fugit commodi nemo assumenda laudantium
-consequuntur perferendis. Eos voluptatem nesciunt a ut. Magni esse
-obcaecati qui. Harum laborum, quidem culpa dolor nisi a in enim quos
-nemo accusamus nihil voluptatem? Necessitatibus animi, reiciendis
-error optio soluta eum est impedit rem nulla eaque. Ab ullam repellat
-distinctio voluptate reprehenderit, sint, aliquam neque assumenda ipsa
-dolorum tempora, odio voluptatem consequatur quae iure! Saepe cumque
-&lt;/section>
-&lt;/main>
-&lt;/div>    
-</div>   
+&lt;div class=&quot;drawer&quot;&gt;
+&lt;aside class=&quot;aside-drawer&quot;&gt;
+  &lt;div class=&quot;mail-heading&quot;&gt;
+    &lt;h2&gt;UFC Mail&lt;/h2&gt;
+    &lt;p&gt;UFC@gmail.com&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;nav class=&quot;nav-drawer&quot;&gt;
+    &lt;a class=&quot;sel&quot; href=&quot;#&quot;&gt;&lt;i  class=&quot;i fas fa-inbox&quot;&gt;&lt;/i&gt;Inbox&lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;i fas fa-inbox&quot;&gt;&lt;/i&gt;Star&lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;i fas fa-paper-plane&quot;&gt;&lt;/i&gt;Sent&lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;i fas fa-envelope-open&quot;&gt;&lt;/i&gt;Drafts&lt;/a&gt;
+    &lt;br /&gt;
+    &lt;p&gt;Labels&lt;/p&gt;
+    &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;i fas fa-users&quot;&gt;&lt;/i&gt;Family&lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;i fas fa-users&quot;&gt;&lt;/i&gt;Friends&lt;/a&gt;
+  &lt;/nav&gt;
+&lt;/aside&gt;
+&lt;main class=&quot;main-drawer&quot;&gt;
+  &lt;header class=&quot;header-drawer&quot;&gt;
+    &lt;h1&gt;UFC MAIL&lt;/h1&gt;
+  &lt;/header&gt;
+  &lt;section&gt;
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quo
+    provident, ad esse recusandae, minus repellendus quia iste suscipit
+    cumque est. Nobis ullam deserunt deleniti facilis obcaecati? Ducimus,
+    nobis pariatur! Culpa iusto, recusandae enim repudiandae eum aliquid?
+    Ut, voluptatibus eveniet eos neque aliquam, nulla molestiae velit
+    numquam repellendus fugit commodi nemo assumenda laudantium
+    consequuntur perferendis. Eos voluptatem nesciunt a ut. Magni esse
+    obcaecati qui. Harum laborum, quidem culpa dolor nisi a in enim quos
+    nemo accusamus nihil voluptatem? Necessitatibus animi, reiciendis
+    error optio soluta eum est impedit rem nulla eaque. Ab ullam repellat
+    distinctio voluptate reprehenderit, sint, aliquam neque assumenda ipsa
+    dolorum tempora, odio voluptatem consequatur quae iure! Saepe cumque
+    est eaque assumenda veniam deserunt iusto incidunt impedit! Quidem,
+    omnis? Illo, consectetur harum impedit, libero dolorum facere ipsa
+    quia neque possimus commodi necessitatibus, reiciendis tempora.
+    Impedit consectetur tempora voluptas est maiores temporibus totam
+    adipisci modi, debitis ea tempore velit! Doloribus. Aut ea harum atque
+    et maiores optio expedita quam consectetur dicta doloribus! Laborum
+    enim omnis dicta accusamus, iste inventore odit tempora, nostrum
+    maiores consequuntur alias, consequatur praesentium odio facilis quia?
+    Doloremque quam corporis natus fugit error at deleniti architecto rem,
+    itaque voluptates numquam alias velit quo a cumque! Totam laborum,
+    tenetur necessitatibus error amet repellendus quam sunt id debitis
+    vel. Nemo sequi earum qui hic at culpa necessitatibus quisquam,
+    aliquam tempore porro! Saepe, quo odit harum numquam eveniet fugit
+    possimus quisquam laborum, labore esse, culpa error. Iusto dolore
+    natus vitae? Aperiam corrupti cum corporis facere voluptatibus,
+    dolore, beatae atque qui placeat unde ullam exercitationem quia
+    impedit, voluptas dolorum blanditiis quae! Quod dolor maiores minima
+    illum error consequatur vel fugiat hic! Aut ducimus quaerat similique
+    maiores pariatur omnis expedita doloremque possimus explicabo fuga
+    officiis culpa, quae optio veritatis iusto consequatur! Adipisci
+    similique hic porro, deleniti inventore totam facilis cupiditate
+    numquam natus. Lorem ipsum dolor sit amet consectetur adipisicing
+    elit. Ea, commodi voluptatem. Porro possimus facilis, adipisci esse
+    dolor maxime, amet eius perferendis debitis doloribus molestiae
+    incidunt! Deleniti, ad odit? Nulla, placeat!
+  &lt;/section&gt;
+&lt;/main&gt;
+&lt;/div&gt;      
 </code></pre>
 
 
@@ -321,11 +447,20 @@ dolorum tempora, odio voluptatem consequatur quae iure! Saepe cumque
                 </div>
     </main>
 
+    <div class="footer">
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-linkedin"></i>
+      <i class="fab fa-github"></i>
+  </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"
         integrity="sha512-IaaKO80nPNs5j+VLxd42eK/7sYuXQmr+fyywCNA0e+C6gtQnuCXNtORe9xR4LqGPz5U9VpH+ff41wKs/ZmC3iA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>hljs.highlightAll();</script>
     <script src="./Drawer.js"></script>
+    <script src="../../script.js"></script>
+    <script src="https://kit.fontawesome.com/1003df6d85.js" crossorigin="anonymous"></script>
+
     
 </body>
 

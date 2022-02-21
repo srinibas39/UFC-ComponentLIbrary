@@ -1,61 +1,38 @@
-*{
-    box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
-    
-}
-:root{
-    --primary-color:#FF3B30;
-    --secondary-color:white;
-    --primary-font-family:'Montserrat', sans-serif;
-}
-body{
-    font-family: var(--primary-font-family)
-}
-.navbar{
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    display: flex;
-    padding: 2rem;
-    height: 14vh;
-    
-}
-.ul-navbar{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-    width: 30%;
-    justify-content: space-evenly;
-}
-.ul-navbar>*{
-    cursor: pointer;
-}
+@import url("../main.css");
 .main{
-    height: 86vh;
     display: flex;
     flex-direction: column;
     justify-content: start;
-    padding: 6rem;
+    padding: 10px;
+    box-shadow: 0px 0px 0px 0.5px #AAA;
+    width: 80vw;
+    background-color: var(--hero-color);
 }
 .main h1{
-    font-size: 4.5rem;
-    text-align: center;
-}
-.main p{
     font-size: 2rem;
     text-align: center;
+    word-break: break-word;
+    margin: 4px;
+}
+.main p{
+    font-size: 1.5rem;
+    text-align: center;
+    word-break: break-word;
+    margin: 4px;
 }
 .buttons{
     text-align: center;
     margin: 1rem 0;
 }
 .buttons>*{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 1rem;
     border: none;
-    border-radius: 10px;
     cursor: pointer;
+    position: relative;
+}
+.github{
+    border: 1px solid var(--primary-color);
 }
 .getstarted{
     background: var(--primary-color);
@@ -64,3 +41,24 @@ body{
 .buttons>*:hover{
     opacity: 70%;
 }
+
+.svg-home{
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15rem;
+}
+.installation-container{
+    margin: 1rem;
+    width: 80vw;
+    box-shadow: var(--box-shadow1);
+    padding: 1rem;
+
+}
+
+.installation-container>*{
+    margin: 4px;
+}
+
