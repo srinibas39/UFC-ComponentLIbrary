@@ -1,0 +1,44 @@
+@import url("../../main.css");
+
+  .component-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 14rem;
+    align-items: center;
+    background-color: var(--component-color);
+    box-shadow: 0px 0px 10px 2px #aaa;
+    flex-direction: column;
+  }
+
+
+  .search, .username,.password{
+    height: 15%;
+    width: 80%;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+  }
+
+  .search-icon{
+    position: relative;
+    bottom: 2.3rem;
+    left: 25rem;;
+  }
+  .center{
+      justify-content: center;
+  }
+  
+  .label{
+    font-weight: bold;
+  }
+  .red-border{
+      border: 1px solid var(--primary-color);
+  }
+  .red{
+      color: var(--primary-color);
+  }
+
+ 
+  

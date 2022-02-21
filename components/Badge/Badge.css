@@ -1,0 +1,103 @@
+@import url("./../../main.css");
+.component-container {
+  display: flex;
+  justify-content: space-evenly;
+  height: 10rem;
+  align-items: center;
+  background-color: var(--component-color);
+  box-shadow: var(--box-shadow2);
+  flex-direction: column;
+}
+.html {
+  display: flex;
+  justify-content: space-evenly;
+  height: 12rem;
+  align-items: center;
+  background-color: var(--code-color);
+  box-shadow: 0px 0px 10px 2px var(--code-color);
+  color: var(--secondary-color);
+}
+
+
+
+.badge-icon {
+  height: 2rem;
+  width: 2rem;
+  background-color: var(--primary-color);
+  position: absolute;
+  top: 0.5rem;
+  left: 17rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+.h1 {
+  margin: 2rem;
+}
+.badge {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+}
+.large-badge {
+  height: 4rem;
+  width: 4rem;
+  background-color: var(--primary-color);
+  position: absolute;
+  top: -1.2rem;
+  left: 17rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+.button {
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.button-badge {
+  height: 2rem;
+  width: 2rem;
+  background-color: var(--primary-color);
+  position: absolute;
+  top: -1.5rem;
+  left: 5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
+.height {
+  height: 23rem;
+}
+.ico {
+  font-size: 2rem;
+}
+
+.icon-badge{
+    height: 2rem;
+    width: 2rem;
+    background-color: var(--primary-color);
+    position: absolute;
+    top: -1rem;
+    left: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondary-color);
+    font-weight: bold;
+}

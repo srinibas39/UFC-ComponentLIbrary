@@ -1,0 +1,70 @@
+@import url("../../main.css");
+
+  .component-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 40rem;
+    align-items: center;
+    background-color: var(--component-color);
+    box-shadow: 0px 0px 10px 2px #aaa;
+    flex-direction: column;
+  }
+ 
+
+  /* Drawer  */
+  .drawer {
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+    height: 80%;
+    overflow: auto;
+  }
+  .aside-drawer {
+    display: flex;
+    flex-direction: column;
+  }
+  .mail-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 2rem 0px;
+   
+  }
+  .nav-drawer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    overflow: auto;
+  }
+  .main-drawer {
+    width: 70%;
+  }
+  .header-drawer {
+    margin: 0.5rem 0px;
+    background-color: var(--primary-color);
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    border-radius: 0.5rem;
+  }
+  .i {
+    margin: 0 1.5rem;
+  }
+  .sel{
+      background-color: #fca5a5;
+  }
+  a{
+   height: 3rem;
+   align-items: center;
+   padding: 1rem;
+   text-decoration: none;
+   color: black;
+ }
+ section{
+   overflow: auto;  
+   padding: 1rem;
+ }
+ .navopen{
+    cursor: pointer;
+}
