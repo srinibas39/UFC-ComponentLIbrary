@@ -174,9 +174,11 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    
 }
 .footer i{
     cursor: pointer;
+    position: relative;
 }
 #comp-list{
     display: none;
